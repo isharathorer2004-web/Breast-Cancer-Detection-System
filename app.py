@@ -5,7 +5,7 @@ import joblib
 # PAGE CONFIG
 
 st.set_page_config(
-    page_title="Breast Cancer Predictor",
+    page_title="Breast Cancer Detector",
     page_icon="🌸",
     layout="wide"
 )
@@ -72,7 +72,7 @@ st.markdown("""
 # HEADER
 
 st.markdown(
-    "<div class='title'>🌸 Breast Cancer Prediction System 🌸</div>",
+    "<div class='title'>🌸 Breast Cancer Detection System 🌸</div>",
     unsafe_allow_html=True
 )
 
@@ -89,7 +89,7 @@ st.divider()
 st.sidebar.title("💗 About")
 
 st.sidebar.info("""
-This application predicts whether a breast tumor is:
+This application detects whether a breast tumor is:
 
 🌷 Benign (Non-Cancerous)
 
